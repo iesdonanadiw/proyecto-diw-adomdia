@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>NavBar</title>
+</head>
+
+<body>
+  <!--HEADER-->
+  <header class="cabecera">
+    <h1>PlayTogether</h1>
+  </header>
+  <nav class="sidebar close">
+    <header class="nav">
+      <div class="image-text">
+        <span class="image">
+          <img src="img/user0.jpg" alt="user">
+        </span>
+
+        <div class="text header-text">
+          <span class="name">Rosalia</span>
+          <span class="profession">Motomami</span>
+        </div>
+      </div>
+
+      <i class='bx bx-chevron-right toggle'></i>
+
+    </header>
+
+    <!--SIDEBAR-->
+
+    <div class="menu-bar">
+      <div class="menu">
+        <ul>
+        <li class="buscador">
+          <i class='bx bx-search icon'></i>
+          <input type="search" placeholder="Buscar...">
+        </li>
+      </ul>
+        <ul class="menu-links">
+          <li class="nav link">
+            <a href="index.html">
+              <i class='bx bx-home icon'></i>
+              <span class="text nav-text">Inicio</span>
+            </a>
+          </li>
+          <li class="nav link">
+            <a href="#">
+              <i class='bx bx-chat icon'></i>
+              <span class="text nav-text">Mensajes</span>
+            </a>
+          </li>
+          <li class="nav link">
+            <a href="grupos.html">
+              <i class='bx bx-group icon'></i>
+              <span class="text nav-text">Grupos</span>
+            </a>
+          </li>
+          <li class="nav link">
+            <a href="#">
+              <i class='bx bx-store icon'></i>
+              <span class="text nav-text">Mercadillo</span>
+            </a>
+          </li>
+          <li class="nav link">
+            <a href="config.html">
+              <i class='bx bx-cog icon'></i>
+              <span class="text nav-text">Configuración</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="bottom-content">
+        <ul>
+        <li class="">
+          <a href="#">
+            <i class="bx bx-log-out icon"></i>
+            <span class="text nav-text">Salir</span>
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li class="mode">
+          <div class="moon-sun">
+            <i class="bx bx-moon icon moon"></i>
+            <i class="bx bx-sun icon sun"></i>
+          </div>
+          <span class="mode-text text">Modo Oscuro</span>
+
+          <div class="toggle-switch">
+            <span class="switch"></span>
+          </div>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="home">
+    <!--SLIDER INICIO-->
+    <section class="fotos">
+      <i class="bx bx-chevron-left arrow left"></i>
+      <button class="pre-btn"></button>
+      <i class="bx bx-chevron-right arrow right"></i>
+      <button class="nxt-btn"></button>
+      <div class="fotos-container">
+        <div class="fotos-card">
+          <div class="fotos-image">
+            <a href="img/user1.jpg">
+              <img src="img/user1.jpg" class="fotos-thumb" alt="">
+            </a>
+          </div>
+          <div class="fotos-info">
+            <div class="fotos-header">
+              <h2 class="fotos-user">Lemmy </h2>
+              <div class="fotos-icon">
+                <i class='bx bx-heart like'></i>
+                <i class='bx bx-comment-dots comment'></i>
+              </div>
+            </div>
+            <p class="fotos-short-description">Conciertito de chill</p>
+          </div>
+        </div>
+        <div class="fotos-card">
+          <div class="fotos-image">
+            <a href="img/user2.jpg">
+              <img src="img/user2.jpg" class="fotos-thumb" alt="">
+            </a>
+          </div>
+          <div class="fotos-info">
+            <div class="fotos-header">
+              <h2 class="fotos-user">Israel</h2>
+              <div class="fotos-icon">
+                <i class='bx bx-heart like'></i>
+                <i class='bx bx-comment-dots comment'></i>
+              </div>
+            </div>
+            <p class="fotos-short-description">Cervecita con los chavale</p>
+          </div>
+        </div>
+        <div class="fotos-card">
+          <div class="fotos-image">
+            <a href="img/user3.jpg">
+              <img src="img/user3.jpg" class="fotos-thumb" alt="">
+            </a>
+          </div>
+          <div class="fotos-info">
+            <div class="fotos-header">
+              <h2 class="fotos-user">Lole</h2>
+              <div class="fotos-icon">
+                <i class='bx bx-heart like'></i>
+                <i class='bx bx-comment-dots comment'></i>
+              </div>
+            </div>
+            <p class="fotos-short-description">Con mi Manue de jóvenes</p>
+          </div>
+        </div>
+        <div class="fotos-card">
+          <div class="fotos-image">
+            <a href="img/user4.jpg">
+              <img src="img/user4.jpg" class="fotos-thumb" alt="">
+            </a>
+          </div>
+          <div class="fotos-info">
+            <div class="fotos-header">
+              <h2 class="fotos-user">S Curro</h2>
+              <div class="fotos-icon">
+                <i class='bx bx-heart like'></i>
+                <i class='bx bx-comment-dots comment'></i>
+              </div>
+            </div>
+            <p class="fotos-short-description">Rodando con el Chaparro</p>
+          </div>
+        </div>
+        <div class="fotos-card">
+          <div class="fotos-image">
+            <a href="img/user5.jpg">
+              <img src="img/user5.jpg" class="fotos-thumb" alt="">
+            </a>
+          </div>
+          <div class="fotos-info">
+            <div class="fotos-header">
+              <h2 class="fotos-user">Al Cisneros</h2>
+              <div class="fotos-icon">
+                <i class='bx bx-heart like'></i>
+                <i class='bx bx-comment-dots comment'></i>
+              </div>
+            </div>
+            <p class="fotos-short-description">Me faltan mástiles hehe</p>
+          </div>
+        </div>
+        <div class="fotos-card">
+          <div class="fotos-image">
+            <a href="img/user6.jpg">
+              <img src="img/user6.jpg" class="fotos-thumb" alt="">
+            </a>
+          </div>
+          <div class="fotos-info">
+            <div class="fotos-header">
+              <h2 class="fotos-user">Nacio</h2>
+              <div class="fotos-icon">
+                <i class='bx bx-heart like'></i>
+                <i class='bx bx-comment-dots comment'></i>
+              </div>
+            </div>
+            <p class="fotos-short-description">Primer concierto ;)</p>
+          </div>
+        </div>
+        <div class="fotos-card">
+          <div class="fotos-image">
+            <a href="img/user7.jpg">
+              <img src="img/user7.jpg" class="fotos-thumb" alt="">
+            </a>
+          </div>
+          <div class="fotos-info">
+            <div class="fotos-header">
+              <h2 class="fotos-user">Manolo Sanlúcar</h2>
+              <div class="fotos-icon">
+                <i class='bx bx-heart like'></i>
+                <i class='bx bx-comment-dots comment'></i>
+              </div>
+            </div>
+            <p class="fotos-short-description">Por siempre maestro</p>
+          </div>
+        </div>
+        <div class="fotos-card">
+          <div class="fotos-image">
+            <a href="img/user8.jpg">
+              <img src="img/user8.jpg" class="fotos-thumb" alt="">
+            </a>
+          </div>
+          <div class="fotos-info">
+            <div class="fotos-header">
+              <h2 class="fotos-user">blasfem0</h2>
+              <div class="fotos-icon">
+                <i class='bx bx-heart like'></i>
+                <i class='bx bx-comment-dots comment'></i>
+              </div>
+            </div>
+            <p class="fotos-short-description">Cuidando la viña</p>
+          </div>
+        </div>
+        <div class="fotos-card">
+          <div class="fotos-image">
+            <a href="img/user9.jpg">
+              <img src="img/user9.jpg" class="fotos-thumb" alt="">
+            </a>
+          </div>
+          <div class="fotos-info">
+            <div class="fotos-header">
+              <h2 class="fotos-user">Mj Llergo</h2>
+              <div class="fotos-icon">
+                <i class='bx bx-heart like'></i>
+                <i class='bx bx-comment-dots comment'></i>
+              </div>
+            </div>
+            <p class="fotos-short-description">Oleee mi Goyaa :D</p>
+          </div>
+        </div>
+        <div class="fotos-card">
+          <div class="fotos-image">
+            <a href="img/user10.jpg">
+              <img src="img/user10.jpg" class="fotos-thumb" alt="">
+            </a>
+          </div>
+          <div class="fotos-info">
+            <div class="fotos-header">
+              <h2 class="fotos-user">Antonio</h2>
+              <div class="fotos-icon">
+                <i class='bx bx-heart like'></i>
+                <i class='bx bx-comment-dots comment'></i>
+              </div>
+            </div>
+            <p class="fotos-short-description">Mejor que en brazos</p>
+          </div>
+        </div>
+        <div class="fotos-card">
+          <div class="fotos-image">
+            <a href="img/user11.jpg">
+              <img src="img/user11.jpg" class="fotos-thumb" alt="">
+            </a>
+          </div>
+          <div class="fotos-info">
+            <div class="fotos-header">
+              <h2 class="fotos-user">Morente</h2>
+              <div class="fotos-icon">
+                <i class='bx bx-heart like'></i>
+                <i class='bx bx-comment-dots comment'></i>
+              </div>
+            </div>
+            <p class="fotos-short-description">Por mi barrio...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <button class="btn-crear">Crear</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
