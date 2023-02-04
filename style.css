@@ -93,7 +93,7 @@ body.dark{
 }
 
 .sidebar.close .text{
-    opacity: 0;
+    display: none;
 }
 
 .sidebar .image {
@@ -636,11 +636,10 @@ body.dark .switch::before{
   }
 
   .config{
-    position: fixed;
+    position: relative;
     width: 450px;
-    border-radius: 16px;
-    top: 180px;
-    left: 730px;
+    top: 85px;
+    left: 370px;
     color: var(--text2-color);
   }
 
@@ -1032,3 +1031,225 @@ body.dark .switch::before{
   margin-left: -42px;
   margin-top: -30px;
 }
+
+
+/*LECCIONES*/
+
+/*BREADCRUMBS*/
+
+.breadcrumbs{
+  position: relative;
+  top: 150px;
+  left: 150px;
+}
+
+.breadcrumbs ul{
+  list-style: none;
+}
+
+.breadcrumbs ul li{
+  display: inline-block;
+}
+
+.breadcrumbs ul li a{
+  width: 150px;
+  display: block;
+  height: 50px;
+  background-color: var(--sidebar-color);
+  text-align: center;
+  position: relative;
+  padding: 10px;
+  text-decoration: none;
+  color: var(--text-color);
+  border-radius: 5px;
+}
+
+.breadcrumbs ul li:first-child a{
+  background-color: var(--body-color);
+  color: var(--text2-color);
+  border: solid 1px var(--text2-color)
+}
+
+.breadcrumbs ul li a{
+  width: 150px;
+  display: block;
+  height: 50px;
+  background-color: var(--sidebar-color);
+  text-align: center;
+  position: relative;
+  padding: 10px;
+  text-decoration: none;
+  color: var(--text-color);
+  border-radius: 5px;
+}
+
+.breadcrumbs ul li a.active {
+  background-color: var(--primary-color);
+  color: var(--text2-color);
+}
+
+.wrap-video{
+  position: relative;
+  top: 150px;
+  left: 300px;
+  padding-bottom: 40px;
+  color: var(--text2-color);
+}
+ .wrap-video iframe{
+  width: 1024px;
+  height: 700px;
+  border: none;
+  border-radius: 5px;
+ }
+
+ .wrap-video p{
+  margin: 20px;
+  width: 1024px;
+ }
+
+
+ /* PUNTOS DE CORTE */
+
+
+ @media screen and (max-width: 412px){
+   /* LOGIN */
+  .reg{
+    width: 400px;
+    left: 6px;
+    top: 77px;
+  }
+
+  .log{
+    width: 400px;
+    left: 6px;
+    top: 590px;
+  }
+
+  /* INDEX */
+
+  .sidebar header .toggle{
+    display: none;
+  }
+
+  .fotos{
+    padding-left: 0px;
+    margin-left: 4px;
+  }
+
+  .pre-btn{
+    left: 0px;
+  }
+
+  .nxt-btn{
+    right: 0px;
+  }
+
+  .fotos i.left{
+    left: 0px;
+    top: 490px;
+  }
+
+  .fotos i.right{
+    right: 0px;
+    top: 490px;
+    padding-right: 0px;
+  }
+
+  .btn-crear{
+    margin-left: 37%;
+  }
+
+  /* CLASES */
+
+
+  .grupos{
+    left: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .grupos-container{
+    padding: 0 1vw;
+  }
+
+  .grupos-card{
+    width: 314px;
+    height: 222px;
+  }
+
+  .grupos-thumb{
+    max-width: 260px;
+  }
+
+  .grupos-info{
+    display: none;
+  }
+
+  /* CONFIG */
+
+  .conf{
+    left: 90px;
+    text-align: center;
+    width: 60px;
+    z-index: 1;
+  }
+
+  .conf-bar .text{
+    display: none;
+  }
+
+  .config{
+    width: 280px;
+    left: 76px;
+  }
+
+  .guardar-button{
+    margin-left: 50px;
+  }
+
+
+
+  /* GUITARRA */
+
+  .clases{
+    padding-left: 0px;
+    margin-left: 4px;
+  }
+
+  .clases i.left{
+    left: 0px;
+    top: 490px;
+  }
+
+  .clases i.right{
+    right: 0px;
+    top: 490px;
+    padding-right: 0px;
+  }
+
+  /* LECCION */
+
+  .breadcrumbs{
+    top: 90px;
+    left: 8px;
+  }
+
+  .breadcrumbs ul li{
+    padding: 2px;
+  }
+
+  .wrap-video{
+    top: 130px;
+    left: 12px;
+  }
+
+  .wrap-video iframe{
+    width: 300px;
+    height: auto;
+  }
+
+  .wrap-video p{
+    width: 260px;
+  }
+
+ }
