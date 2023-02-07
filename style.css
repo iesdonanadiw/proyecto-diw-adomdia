@@ -498,7 +498,7 @@ body.dark .switch::before{
     font-size: 75px;
     color: var(--second-color);
     position: absolute;
-    padding-top: 15%;
+    padding-top: 330px;
     z-index: 7;
   }
 
@@ -531,12 +531,12 @@ body.dark .switch::before{
   }
 
   .pre-btn {
-    left: 50px;
+    left: 51px;
     transform: rotate(180deg);
   }
 
   .nxt-btn {
-    right: 50px;
+    right: 62px;
   }
 
   .pre-btn img,
@@ -988,7 +988,7 @@ body.dark .switch::before{
   font-size: 75px;
   color: var(--second-color);
   position: absolute;
-  padding-top: 15%;
+  padding-top:330px;
   z-index: 7;
 }
 
@@ -1109,6 +1109,18 @@ body.dark .switch::before{
 
 
  /* PUNTOS DE CORTE */
+ @media screen and (max-width:1500px){
+  .reg{
+    left: 24vw;
+    top: 15vh;
+  }
+
+  .log{
+    left: 24vw;
+    top: 590px;
+    margin-top: 30px;
+  }
+ }
 
 
  @media screen and (max-width: 412px){
