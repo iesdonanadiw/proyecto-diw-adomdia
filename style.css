@@ -579,7 +579,7 @@ body.dark .switch::before{
   .conf{
     position: fixed;
     top: 0;
-    left: 255px;
+    left: 17vw;
     width: 250px;
     transition: var(--tran-05);
     margin-top: 200px;
@@ -639,7 +639,7 @@ body.dark .switch::before{
     position: relative;
     width: 450px;
     top: 85px;
-    left: 370px;
+    left: 21vw;
     color: var(--text2-color);
   }
 
@@ -1122,6 +1122,13 @@ body.dark .switch::before{
   }
  }
 
+ @media screen and (max-width: 700px) {
+  .conf-bar .text{
+    display: none;
+  }
+
+ }
+
 
  @media screen and (max-width: 412px){
    /* LOGIN */
@@ -1206,9 +1213,6 @@ body.dark .switch::before{
     z-index: 1;
   }
 
-  .conf-bar .text{
-    display: none;
-  }
 
   .config{
     width: 280px;
