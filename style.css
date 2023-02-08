@@ -805,11 +805,10 @@ body.dark .switch::before{
 }
 
 .grupos {
-  position: absolute;
+  display: flex;
   overflow: hidden;
   padding: 20px;
   padding-top: 175px;
-  margin-left: 200px;
 }
 
 .grupos-container {
@@ -1125,6 +1124,26 @@ body.dark .switch::before{
  @media screen and (max-width: 700px) {
   .conf-bar .text{
     display: none;
+  }
+
+ }
+
+ @media screen and (max-width: 1150px) {
+  .grupos-card{
+    width: 500px;
+    height: 345px;
+  }
+
+  .grupos-short-description {
+    width: 375px;
+    height: 108%;
+    margin-left: -266px;
+    margin-top: 182px;
+  }
+
+  .grupos .button a{
+    margin-top: -272px;
+    margin-left: -4px;
   }
 
  }
