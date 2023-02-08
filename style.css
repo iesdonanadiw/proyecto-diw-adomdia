@@ -1040,6 +1040,7 @@ body.dark .switch::before{
   position: relative;
   top: 150px;
   left: 150px;
+  margin-bottom: 15px;
 }
 
 .breadcrumbs ul{
@@ -1090,20 +1091,23 @@ body.dark .switch::before{
 .wrap-video{
   position: relative;
   top: 150px;
-  left: 300px;
+  left: 20%;
   padding-bottom: 40px;
   color: var(--text2-color);
 }
  .wrap-video iframe{
-  width: 1024px;
-  height: 700px;
+  max-width: 1024px;
+  width: 70vw;
+  max-height: 700px;
+  height: 50vh;
   border: none;
   border-radius: 5px;
  }
 
  .wrap-video p{
   margin: 20px;
-  width: 1024px;
+  max-width: 1024px;
+  width: 70vw;
  }
 
 
