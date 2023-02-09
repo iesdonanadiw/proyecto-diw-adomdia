@@ -207,6 +207,10 @@ body.dark .sidebar header .toggle{
     transition: var(--tran-04);
 }
 
+.sidebar li a.active{
+  background: var(--primary-color);
+}
+
 .sidebar li a:hover{
     background: var(--primary-color);
 }
@@ -1120,7 +1124,7 @@ body.dark .switch::before{
 
   .log{
     left: 24vw;
-    top: 590px;
+    top: 620px;
     margin-top: 30px;
   }
  }
@@ -1208,6 +1212,13 @@ body.dark .switch::before{
     left: 0px;
     margin-left: 0px;
     padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .grupos-header{
+    position: relative;
+    top: 178px;
+    left: -269px;
   }
 
   .grupos-container{
@@ -1216,14 +1227,15 @@ body.dark .switch::before{
 
   .grupos-card{
     width: 314px;
-    height: 222px;
+    height: 243px;
   }
 
   .grupos-thumb{
     max-width: 260px;
   }
 
-  .grupos-info{
+  .grupos-info p,
+  .grupos-info .button a{
     display: none;
   }
 
