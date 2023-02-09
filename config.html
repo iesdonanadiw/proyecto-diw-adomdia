@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>PlayTogether - Configuración</title>
+</head>
+<body>
+  <!--HEADER-->
+  <header class="cabecera">
+    <h1>PlayTogether</h1>
+  </header>
+  <nav class="sidebar close">
+    <header class="nav">
+      <div class="image-text">
+        <span class="image">
+          <img src="img/user0.jpg" alt="user">
+        </span>
+
+        <div class="text header-text">
+          <span class="name">Rosalia</span>
+          <span class="profession">Motomami</span>
+        </div>
+      </div>
+
+      <i class='bx bx-chevron-right toggle'></i>
+
+    </header>
+
+    <!--SIDEBAR-->
+
+    <div class="menu-bar">
+      <div class="menu">
+        <ul>
+        <li class="buscador">
+          <i class='bx bx-search icon'></i>
+          <input type="search" placeholder="Buscar...">
+        </li>
+      </ul>
+        <ul class="menu-links">
+          <li class="nav link">
+            <a href="index.html">
+              <i class='bx bx-home icon'></i>
+              <span class="text nav-text">Inicio</span>
+            </a>
+          </li>
+          <li class="nav link">
+            <a href="#">
+              <i class='bx bx-chat icon'></i>
+              <span class="text nav-text">Mensajes</span>
+            </a>
+          </li>
+          <li class="nav link">
+            <a href="grupos.html">
+              <i class='bx bx-group icon'></i>
+              <span class="text nav-text">Grupos</span>
+            </a>
+          </li>
+          <li class="nav link">
+            <a href="#">
+              <i class='bx bx-store icon'></i>
+              <span class="text nav-text">Mercadillo</span>
+            </a>
+          </li>
+          <li class="nav link">
+            <a href="config.html" class="active">
+              <i class='bx bx-cog icon'></i>
+              <span class="text nav-text">Configuración</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="bottom-content">
+        <ul>
+        <li class="">
+          <a href="#">
+            <i class="bx bx-log-out icon"></i>
+            <span class="text nav-text">Salir</span>
+          </a>
+        </li>
+
+
+        <li class="mode">
+          <div class="moon-sun">
+            <i class="bx bx-moon icon moon"></i>
+            <i class="bx bx-sun icon sun"></i>
+          </div>
+          <span class="mode-text text">Modo Oscuro</span>
+
+          <div class="toggle-switch">
+            <span class="switch"></span>
+          </div>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="panel">
+    <!--SIDE_BAR INICIO-->
+    <nav class="conf-bar">
+      <div class="conf-bar">
+        <div class="conf">
+          <ul class="conf-links">
+            <li class="nav link">
+              <a href="#">
+                <i class='bx bx-pencil icon'></i>
+                <span class="text nav-text">Editar perfil</span>
+              </a>
+            </li>
+            <li class="nav link">
+              <a href="#">
+                <i class='bx bx-bell icon' ></i>
+                <span class="text nav-text">Notificaciones</span>
+              </a>
+            </li>
+            <li class="nav link">
+              <a href="#">
+                <i class='bx bx-lock icon' ></i>
+                <span class="text nav-text">Seguridad</span>
+              </a>
+            </li>
+            <li class="nav link">
+              <a href="#">
+                <i class='bx bx-cog icon' ></i>
+                <span class="text nav-text">Configuración</span>
+              </a>
+            </li>
+            <li class="nav link">
+              <a href="#">
+                <i class='bx bx-help-circle icon' ></i>
+                <span class="text nav-text">Ayuda</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="config">
+      <section class="form config">
+          <form action="#">
+              <div class="name-details">
+                  <div class="field input">
+                      <label>Nombre</label>
+                      <input type="text" placeholder="Nombre">
+                  </div>
+                  <div class="field input">
+                      <label>Apellido</label>
+                      <input type="text" placeholder="Apellido">
+                  </div>
+              </div>
+              <div class="field input">
+                  <label>Dirección email</label>
+                  <input type="text" placeholder="Introduce tu dirección email">
+              </div>
+              <div class="field input">
+                  <label>Contraseña</label>
+                  <input type="password" placeholder="Introduzca una contraseña nueva">
+              </div>
+              <div class="form-musica">
+                <label for="estilo">
+                  Estilos Musicales
+                  <select name="estilo" id="estilo">
+                    <option value="rock">Rock</option>
+                    <option value="metal">Metal</option>
+                    <option value="pop">Pop</option>
+                    <option value="flamenco">Flamenco</option>
+                 </select>
+
+                </label>
+                <label for="instrumento">
+                  Instrumentos
+                  <select name="instrumento" id="instrumento">
+                    <option value="bajo">Bajo</option>
+                    <option value="bateria">Batería</option>
+                    <option value="guitarra">Guitarra</option>
+                    <option value="teclado">Teclado</option>
+                    <option value="voz">Voz</option>
+                 </select>
+
+                </label>
+              </div>
+              <div class="guardar-button">
+                  <a href="index.html">Guardar</a>
+              </div>
+          </form>
+        </section>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

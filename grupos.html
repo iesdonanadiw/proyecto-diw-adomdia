@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>PlayTogether - Grupos</title>
+</head>
+
+<body>
+  <!--HEADER-->
+  <header class="cabecera">
+    <h1>PlayTogether</h1>
+  </header>
+  <nav class="sidebar close">
+    <header class="nav">
+      <div class="image-text">
+        <span class="image">
+          <img src="img/user0.jpg" alt="user">
+        </span>
+
+        <div class="text header-text">
+          <span class="name">Rosalia</span>
+          <span class="profession">Motomami</span>
+        </div>
+      </div>
+
+      <i class='bx bx-chevron-right toggle'></i>
+
+    </header>
+
+    <!--SIDEBAR-->
+
+    <div class="menu-bar">
+      <div class="menu">
+        <ul>
+        <li class="buscador">
+          <i class='bx bx-search icon'></i>
+          <input type="search" placeholder="Buscar...">
+        </li>
+      </ul>
+        <ul class="menu-links">
+          <li class="nav link">
+            <a href="index.html">
+              <i class='bx bx-home icon'></i>
+              <span class="text nav-text">Inicio</span>
+            </a>
+          </li>
+          <li class="nav link">
+            <a href="#">
+              <i class='bx bx-chat icon'></i>
+              <span class="text nav-text">Mensajes</span>
+            </a>
+          </li>
+          <li class="nav link">
+            <a href="grupos.html" class="active">
+              <i class='bx bx-group icon'></i>
+              <span class="text nav-text">Grupos</span>
+            </a>
+          </li>
+          <li class="nav link">
+            <a href="#">
+              <i class='bx bx-store icon'></i>
+              <span class="text nav-text">Mercadillo</span>
+            </a>
+          </li>
+          <li class="nav link">
+            <a href="config.html">
+              <i class='bx bx-cog icon'></i>
+              <span class="text nav-text">Configuración</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="bottom-content">
+        <ul>
+        <li class="">
+          <a href="#">
+            <i class="bx bx-log-out icon"></i>
+            <span class="text nav-text">Salir</span>
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li class="mode">
+          <div class="moon-sun">
+            <i class="bx bx-moon icon moon"></i>
+            <i class="bx bx-sun icon sun"></i>
+          </div>
+          <span class="mode-text text">Modo Oscuro</span>
+
+          <div class="toggle-switch">
+            <span class="switch"></span>
+          </div>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="home">
+    <!--SLIDER INICIO-->
+    <section class="grupos">
+      <div class="grupos-container">
+        <div class="grupos-card">
+          <div class="grupos-image">
+            <a href="clases.html">
+              <img src="img/grupos1.jpg" class="grupos-thumb" alt="">
+            </a>
+          </div>
+          <div class="grupos-info">
+            <div class="grupos-header">
+              <h2 class="grupos-name">Clases </h2>
+            </div>
+            <p class="grupos-short-description">Apartado especializado en ofrecer clases de todo tipo de instrumentos, así como de solfeo. Encuentra al usuario
+              que más se acerque a tus necesidades y disfruta de su contenido.
+            </p>
+            <div class="button">
+              <a href="clases.html">Acceder</a>
+          </div>
+          </div>
+        </div>
+        <div class="grupos-card">
+          <div class="grupos-image">
+            <a href="clases.html">
+              <img src="img/grupos2.jpg" class="grupos-thumb" alt="">
+            </a>
+          </div>
+          <div class="grupos-info">
+            <div class="grupos-header">
+              <h2 class="grupos-name">Tips </h2>
+            </div>
+            <p class="grupos-short-description">Aquí podrás acceder a todo tipo de conocimientos y consejos rutinarios. Toda la experiencia de los usuarios, aglutinado para
+              facilitar el aprendizaje, optimizar tus conocimiento, etc.
+            </p>
+            <div class="button">
+              <a href="#">Acceder</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

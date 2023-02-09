@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>PlayTogether - Lección</title>
+</head>
+
+<body>
+  <!--HEADER-->
+  <header class="cabecera">
+    <h1>PlayTogether</h1>
+  </header>
+  <nav class="sidebar close">
+    <header class="nav">
+      <div class="image-text">
+        <span class="image">
+          <img src="img/user0.jpg" alt="user">
+        </span>
+
+        <div class="text header-text">
+          <span class="name">Rosalia</span>
+          <span class="profession">Motomami</span>
+        </div>
+      </div>
+
+      <i class='bx bx-chevron-right toggle'></i>
+
+    </header>
+
+    <!--SIDEBAR-->
+
+    <div class="menu-bar">
+      <div class="menu">
+        <ul>
+        <li class="buscador">
+          <i class='bx bx-search icon'></i>
+          <input type="search" placeholder="Buscar...">
+        </li>
+      </ul>
+        <ul class="menu-links">
+          <li class="nav link">
+            <a href="index.html">
+              <i class='bx bx-home icon'></i>
+              <span class="text nav-text">Inicio</span>
+            </a>
+          </li>
+          <li class="nav link">
+            <a href="#">
+              <i class='bx bx-chat icon'></i>
+              <span class="text nav-text">Mensajes</span>
+            </a>
+          </li>
+          <li class="nav link">
+            <a href="grupos.html" class="active">
+              <i class='bx bx-group icon'></i>
+              <span class="text nav-text">Grupos</span>
+            </a>
+          </li>
+          <li class="nav link">
+            <a href="#">
+              <i class='bx bx-store icon'></i>
+              <span class="text nav-text">Mercadillo</span>
+            </a>
+          </li>
+          <li class="nav link">
+            <a href="config.html">
+              <i class='bx bx-cog icon'></i>
+              <span class="text nav-text">Configuración</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="bottom-content">
+        <ul>
+        <li class="">
+          <a href="#">
+            <i class="bx bx-log-out icon"></i>
+            <span class="text nav-text">Salir</span>
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li class="mode">
+          <div class="moon-sun">
+            <i class="bx bx-moon icon moon"></i>
+            <i class="bx bx-sun icon sun"></i>
+          </div>
+          <span class="mode-text text">Modo Oscuro</span>
+
+          <div class="toggle-switch">
+            <span class="switch"></span>
+          </div>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="home">
+    <!--SLIDER INICIO-->
+    <div class="breadcrumbs">
+      <ul>
+        <li><a href="#">Manue</a></li>
+        <li><a href="#" class="active">Lección 1</a></li>
+        <li><a href="#">Lección 2</a></li>
+        <li><a href="#">Lección 3</a></li>
+      </ul>
+    </div>
+    <div class="wrap-video">
+      <iframe src="video/manue.mp4">
+      </iframe>
+      <h1>
+        Lección 1 - Presentación
+      </h1>
+      <p>
+        Este primer video sirve de presentación.
+      </p>
+      <p>
+        En él se puede apreciar una muestra de que podremos llegar a alcanzar
+        con este curso.
+      </p>
+      <p>
+        Un toque sencillo, sin muchos arreglos y con una voz de acompañamiento.
+      <p>
+        En las siguientes lecciones aprenderemos con más profundidad conceptos como el conteo
+        de los compases en el flamenco, además de aprender a identificar los distintos palos.
+      </p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
