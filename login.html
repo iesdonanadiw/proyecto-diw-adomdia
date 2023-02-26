@@ -7,15 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="media/img/favicon.ico" type="image/x-icon">
     <title>PlayTogether - Log In</title>
 </head>
 
 <body>
     <!--HEADER-->
+    <audio src="media/audios/bk-sound.mp3" type="audio/mp3" autoplay loop>
+    </audio>
     <header class="cabecera">
         <h1>PlayTogether</h1>
+        <picture class="logo">
+            <img src="media/img/playtogether.png" alt="logo">
+        </picture>
     </header>
-
+    <video src="media/videos/fondologin.mp4" type="video/mp4" muted autoplay >
+      </video>
     <div class="reg">
         <section class="form signup">
             <header>Registrate de manera gratuita</header>
@@ -70,4 +77,19 @@
 
     </div>
 
+
+    <details class="giflogo">
+        <summary>
+            Bienvenido a PlayTogether
+        </summary>
+        <img src="media/animaciones/playtogether.gif" alt="giflogo" >
+    </details>
+
+    <div class="ayuda">
+        <button class="field button" id="show-modal" onclick="document.getElementById('dialogo').showModal()">Ayuda</button>
+        <dialog id="dialogo">
+          <p>Si necesitas ayuda, puedes contactar con nosotros en la dirección:<b> atencionpublico@playtogether.com </b></p>
+          <button id="close" onclick="document.getElementById('dialogo').close()">Entendido</button>
+        </dialog>
+      </div>
 </body>
