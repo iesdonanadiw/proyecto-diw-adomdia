@@ -19,6 +19,7 @@ const body = document.querySelector("body"),
         } else {
             modeText.innerText = "Modo oscuro"
         }
+
     });
 
 
